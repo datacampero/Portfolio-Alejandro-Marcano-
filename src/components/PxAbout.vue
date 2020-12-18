@@ -9,12 +9,24 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2>{{ $t('role') }}</h2>
-        <div>
+        <!-- <div>
             <button v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">
                 <flag :iso="entry.flag" v-bind:squared=false /> {{entry.title}}
             </button>
-        </div>
-      <nav class="nav-menu d-none d-lg-block">
+        </div> -->
+
+              <div class="social-links">
+        <!-- <a v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)" class="active twitter">
+            <flag :iso="entry.flag" v-bind:squared=false /> 
+
+        </a> -->
+            <button v-on:click="presionar" :class="activo ? 'btn btn-outline-success active': 'btn btn-outline-success'" v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">
+                <flag :iso="entry.flag" v-bind:squared=false /> {{entry.title}}
+            </button>
+
+      </div>
+      <nav class="nav-menu d-none d-lg-block inicio">
+        
         <ul>
           <li class="active"><a href="#header">{{ $t('home') }}</a></li>
           <li><a href="#about">{{ $t('about') }}</a></li>
@@ -23,6 +35,9 @@
           <li><a href="#portfolio">{{ $t('portfolio') }}</a></li>
           <li><a href="#contact">{{ $t('contact') }}</a></li>
         </ul>
+
+
+
       </nav><!-- .nav-menu -->
 
       <div class="social-links">
@@ -333,14 +348,70 @@
       </div>
 
 
-<carousel-3d>
-  <slide v-for="(slide, i) in slides" :index="i" :key="i">
-        <template slot-scope="{ index, isCurrent, leftIndex, rightIndex }">
-            <img :data-index="index" :class="{ current: isCurrent, onLeft: (leftIndex >= 0), onRight: (rightIndex >= 0) }" :src="slide.src">
-        </template>
-    </slide>
-</carousel-3d>
+<div>
 
+<div class="testimonials container portfolio">
+        <div class="section-title">
+        <h2>Platzi</h2>
+      </div>
+  <carousel-3d>
+    <slide v-for="(slide, i) in slides" :index="i" :key="i">
+        <div class="portfolio-item">
+          <div class="portfolio-wrap">
+            <img src="https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/diploma-data-studio_page-0001.jpg?alt=media&token=1c924fc6-9218-4c73-b09e-4311ca766d8d" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>    </slide>
+  </carousel-3d>
+      <div class="section-title">
+        <h2>Coursera</h2>
+      </div>
+  <carousel-3d>
+    <slide v-for="(slide, i) in slides" :index="i" :key="i">
+        <div class="portfolio-item">
+          <div class="portfolio-wrap">
+            <img src="https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/diploma-data-studio_page-0001.jpg?alt=media&token=1c924fc6-9218-4c73-b09e-4311ca766d8d" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>    </slide>
+  </carousel-3d>
+
+
+    <carousel-3d>
+    <slide v-for="(slide, i) in slides" :index="i" :key="i">
+        <div class="portfolio-item">
+          <div class="portfolio-wrap">
+            <img src="https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/diploma-data-studio_page-0001.jpg?alt=media&token=1c924fc6-9218-4c73-b09e-4311ca766d8d" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>    </slide>
+  </carousel-3d>
+
+
+
+  </div>
+</div>
 
     <!-- ======= Testimonials ======= -->
     <!-- <div class="testimonials container portfolio">
@@ -406,48 +477,48 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="icon-box">
             <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4><a href="">Lorem Ipsum</a></h4>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <h4><a href="">Data Analysis</a></h4>
+            <p>I clean datasets, dashboards with visualizations in tableau, powerBI and I use python for modeling</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Sed ut perspiciatis</a></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            <h4><a href="">Mobile App Development </a></h4>
+            <p>I have used flutter and ionic to perform hybrid development on ios and android devices</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Magni Dolores</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            <h4><a href="">Particular Class</a></h4>
+            <p>As a professor I give private classes in mathematics, calculus, linear algebra, logic, simulation and others.</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-world"></i></div>
-            <h4><a href="">Nemo Enim</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            <h4><a href="">Web Dev</a></h4>
+            <p>I have experience with Angular and Vue in web app development</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-slideshow"></i></div>
-            <h4><a href="">Dele cardo</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            <h4><a href="">AI (Artificial Intelligence) </a></h4>
+            <p>I perform computer vision applications with CNN, NLP with RNN</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-arch"></i></div>
-            <h4><a href="">Divera don</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            <h4><a href="">Backend</a></h4>
+            <p>I have skills with Flask and Django to create a Rest API for your app</p>
           </div>
         </div>
 
@@ -565,7 +636,7 @@
           <div class="info-box">
             <i class="bx bx-map"></i>
             <h3>My Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
+            <p>La Urbina, Caracas, Venezuela</p>
           </div>
         </div>
 
@@ -587,35 +658,35 @@
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3>Email Me</h3>
-            <p>contact@example.com</p>
+            <p>alemvangrieken@gmail.com</p>
           </div>
         </div>
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
             <h3>Call Me</h3>
-            <p>+1 5589 55488 55</p>
+            <p>+584242481954</p>
           </div>
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form  @submit.prevent="sendEmail"  class="php-email-form mt-4">
         <div class="form-row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <input type="text" name="name" v-model="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
             <div class="validate"></div>
           </div>
           <div class="col-md-6 form-group">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+            <input type="email" class="form-control" v-model="email" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
             <div class="validate"></div>
           </div>
         </div>
         <div class="form-group">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+          <input type="text" class="form-control" v-model="subject"  name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
           <div class="validate"></div>
         </div>
         <div class="form-group">
-          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+          <textarea class="form-control" v-model="message" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
           <div class="validate"></div>
         </div>
         <div class="mb-3">
@@ -623,7 +694,7 @@
           <div class="error-message"></div>
           <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+        <div class="text-center"><button @click="toastTopEnd" type="submit" value="Send">Send Message</button></div>
       </form>
 
     </div>
@@ -636,6 +707,7 @@
 import api from '@/api'
 import i18n from '@/plugins/i18n';
 import { Carousel3d, Slide } from 'vue-carousel-3d';
+import emailjs from 'emailjs-com';
 
 
 export default {
@@ -643,20 +715,73 @@ export default {
   components: {
     Carousel3d,
     Slide
+
   },
 
   data() {
     return {
+      slides: 7, 
+      name: '',
+      message: '',
+      email: '',
+      subject: '',
      isLoading:false,
+     activo:true,
+     activo2:false,
       assets: [],
       languages: [{ flag: 'us', language: 'en', title: 'English' },
                   { flag: 'es', language: 'es', title: 'Español' }] 
     }
   },
-  methods: {    
+  methods: {
+
+
+    toastTopEnd() {
+      this.$swal({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000,
+        icon: 'success',
+        title: 'Mail',
+        text: 'sent successfully',
+      });
+    },
+
+    sendEmail(e) {
+      try {
+        emailjs.sendForm('service_0dn1kui', 'template_0mr4axj', e.target,
+        'user_5hSlJUumxO8LbMUvuk38i', {
+          name: this.name,
+          email: this.email,
+          message: this.message,
+          subject: this.subject,
+        })
+
+      } catch(error) {
+          console.log({error})
+      }
+      // Reset form field
+      this.name = ''
+      this.email = ''
+      this.message = ''
+       this.subject = ''
+    },
+
+
+
+
+
+
     changeLocale(locale){
     i18n.locale = locale;  
-    }
+    },
+      presionar(){
+    this.activo=!this.activo
+     this.activo2=!this.activo
+  },
+
+
   },
 
 
@@ -665,5 +790,9 @@ export default {
     api.getProyectos().then(assets => (this.assets = assets))
     .finally(()=> this.isLoading=false)
   }
+
+  
 }
+
+
 </script>

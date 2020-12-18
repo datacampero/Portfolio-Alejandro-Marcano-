@@ -20,11 +20,6 @@ button {    padding: 10px;    border: 2px solid #18d26e; border-radius:28px;
   font-size: 16px;    margin: 10px;}
 
 
-#header .inicio a {
-
-  color: rgb(0, 0, 0);
-
-}
 
 body::before {
   content: "";
@@ -141,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .inicio a {
 
-  color: rgb(0, 0, 0);
+  color: rgb(165, 165, 165);
 
 }
 
@@ -199,6 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   position: absolute;
   width: 0;
+  
   height: 2px;
   bottom: -4px;
   left: 0;
