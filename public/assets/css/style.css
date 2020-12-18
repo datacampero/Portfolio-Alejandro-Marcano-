@@ -10,14 +10,21 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #fff;
   color: #fff;
   position: relative;
   background: transparent;
 }
 
-button {    padding: 15px;    border: 1px solid green;    font-size: 18px;    margin: 15px;}
+button {    padding: 10px;    border: 2px solid #18d26e; border-radius:28px;
+  font-size: 16px;    margin: 10px;}
 
+
+#header .inicio a {
+
+  color: rgb(0, 0, 0);
+
+}
 
 body::before {
   content: "";

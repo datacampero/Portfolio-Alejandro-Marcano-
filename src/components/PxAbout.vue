@@ -1,13 +1,14 @@
 <template>
     <div>
+      
   <!-- ======= Header ======= -->
   <header id="header" class="header-tops">
     <div class="container">
 
-      <h1><a href="index.html">Emily Jones</a></h1>
+      <h1><a href="index.html">{{ $t('name') }}</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>{{ $t('welcomeMsg') }} <span>graphic designer</span> from New York</h2>
+      <h2>{{ $t('role') }}</h2>
         <div>
             <button v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">
                 <flag :iso="entry.flag" v-bind:squared=false /> {{entry.title}}
@@ -15,12 +16,12 @@
         </div>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="active"><a href="#header">{{ $t('home') }}</a></li>
+          <li><a href="#about">{{ $t('about') }}</a></li>
+          <li><a href="#resume">{{ $t('resume') }}</a></li>
+          <li><a href="#services">{{ $t('services') }}</a></li>
+          <li><a href="#portfolio">{{ $t('portfolio') }}</a></li>
+          <li><a href="#contact">{{ $t('contact') }}</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -331,8 +332,18 @@
         <p>See my courses</p>
       </div>
 
+
+<carousel-3d>
+  <slide v-for="(slide, i) in slides" :index="i" :key="i">
+        <template slot-scope="{ index, isCurrent, leftIndex, rightIndex }">
+            <img :data-index="index" :class="{ current: isCurrent, onLeft: (leftIndex >= 0), onRight: (rightIndex >= 0) }" :src="slide.src">
+        </template>
+    </slide>
+</carousel-3d>
+
+
     <!-- ======= Testimonials ======= -->
-    <div class="testimonials container portfolio">
+    <!-- <div class="testimonials container portfolio">
 
       <div class="section-title">
         <h2>Platzi</h2>
@@ -372,50 +383,7 @@
 
       
 
-    </div><!-- End Testimonials  -->
-
-    <!-- ======= Testimonials ======= -->
-    <div class="testimonials container portfolio">
-
-      <div class="section-title">
-        <h2>Platzi</h2>
-      </div>
-
-      <div class="owl-carousel testimonials-carousel">
-        <div class="col-lg-11 portfolio-item">
-          <div class="portfolio-wrap">
-            <img src="https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/diploma-data-studio_page-0001.jpg?alt=media&token=1c924fc6-9218-4c73-b09e-4311ca766d8d" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-11 portfolio-item">
-          <div class="portfolio-wrap">
-            <img src="https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/diploma-data-studio_page-0001.jpg?alt=media&token=1c924fc6-9218-4c73-b09e-4311ca766d8d" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
-      
-
-    </div><!-- End Testimonials  -->
+    </div> -->
 
 
 
@@ -667,10 +635,15 @@
 <script>
 import api from '@/api'
 import i18n from '@/plugins/i18n';
+import { Carousel3d, Slide } from 'vue-carousel-3d';
 
 
 export default {
   name: 'PxAbout',
+  components: {
+    Carousel3d,
+    Slide
+  },
 
   data() {
     return {

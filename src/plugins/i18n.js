@@ -5,20 +5,24 @@ Vue.use(VueI18n);
 
 const messages = {
     'en': {
-        welcomeMsg: 'Welcome to Your Vue.js App',
-        guide: 'For a guide and recipes on how to configure / customize this project,',
-        checkout: 'check out the',
-        plugins: 'Installed CLI Plugins',
-        links: 'Essential Links',
-        ecosystem: 'Ecosystem'
+        name: 'Alejandro Marcano',
+        role: 'Data Scientist / Systems Engineer / Software Dev / Professor',
+        home: 'Home',
+        about: 'About',
+        resume: 'Resume',
+        services: 'Services',
+        portfolio: 'Portfolio',
+        contact: 'Contact'
     },
     'es': {
-        welcomeMsg: 'Bienvenido a tu aplicación Vue.js',
-        guide: 'Para una guía y recetas sobre cómo configurar / personalizar este proyecto,',
-        checkout: 'revisar la',
-        plugins: 'Plugins de CLI instalados',
-        links: 'Enlaces esenciales',
-        ecosystem: 'Ecosistema'
+        name: 'Alejandro Marcano',
+        role: 'Científico de Datos / Ingeniero de Sistemas / Desarrollador / Profesor',
+        home: 'Inicio',
+        about: 'Sobre',
+        resume: 'Curriculum',
+        services: 'Servicios',
+        portfolio: 'Portafolio',
+        contact: 'Contacto'
     }
 };
 
