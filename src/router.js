@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import PxAbout from '@/components/PxAbout'
+
 import ProjectDetail from '@/components/ProjectDetail'
 
 //use nos permite ir escalando en requerimientos, añadir plugins
@@ -19,9 +20,15 @@ export default new Router({
             component: PxAbout
         },
 
+        // {
+        //     path: '/resume',
+        //     name: 'resume',
+        //     component: PxResume
+        // },
+
 
         {
-            path: '/project/:id',
+            path: '/proyectos/:id',
             name: 'project-detail',
             component: ProjectDetail
         },

@@ -1,35 +1,5 @@
 <template >
 <div>
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
-    <div class="container">
-
-      <h1><a href="index.html">Emily Jones</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a passionate <span>graphic designer</span> from New York</h2>
-
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
-      </div>
-
-    </div>
-  </header><!-- End Header -->
 
 
     <!-- ======= Portfolio Details ======= -->
@@ -51,7 +21,7 @@
             <h3>Project information</h3>
             <ul>
               <li><strong>Category</strong>: Web design</li>
-              <li><strong>Client</strong>: ASU Company</li>
+              <li><strong>Client</strong>: {{proyecto.titulo}}</li>
               <li><strong>Project date</strong>: 01 March, 2020</li>
               <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
             </ul>
@@ -78,14 +48,14 @@ export default {
   data() {
     return {
     isLoading:false,
-      asset: {},
+      proyecto: {},
     }
   },
 
   created() {
      this.isLoading=true
      const id = this.$route.params.id;
-    api.getProyecto(id).then(asset => (this.asset = asset))
+    api.getProyecto(id).then(proyecto => (this.proyecto = proyecto))
     .finally(()=> this.isLoading=false)
   },
 

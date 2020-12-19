@@ -1,0 +1,91 @@
+{
+  "cursos" : [ 
+
+    {
+      "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-teletrabajo-trabajo-remoto_page-0001.jpg?alt=media&token=52122122-4924-460d-b5ce-c6937c662bf4",
+      "nombre" : "Duplicado",
+      "plataforma" : "Platzi"
+    },
+  {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-teletrabajo-trabajo-remoto_page-0001.jpg?alt=media&token=52122122-4924-460d-b5ce-c6937c662bf4",
+    "nombre" : "Trabajo Remoto o Teletrabajo",
+    "plataforma" : "Platzi"
+  },
+  {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-analisis-exploratorio-datos%20(1)_pages-to-jpg-0001.jpg?alt=media&token=86889013-fd11-4c0d-bfda-dfc5449aeee7",
+    "nombre" : "Vue Básico",
+    "plataforma" : "Platzi"
+  },
+  {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-teletrabajo-trabajo-remoto_page-0001.jpg?alt=media&token=52122122-4924-460d-b5ce-c6937c662bf4",
+    "nombre" : "Trabajo Remoto o Teletrabajo",
+    "plataforma" : "Platzi"
+  }, 
+  {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-marca-personal_page-0001.jpg?alt=media&token=fa2d2567-df00-4d90-b324-3ee99ac71a00",
+    "nombre" : "Marca Personal",
+    "plataforma" : "Platzi"
+  },
+
+  {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-data-studio_page-0001.jpg?alt=media&token=257aa8f5-187a-474b-a58a-a8f5f8f08e63",
+    "nombre" : "Google Data Studio",
+    "plataforma" : "Platzi"
+  },
+  {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-analisis-exploratorio-datos%20(1)_pages-to-jpg-0001.jpg?alt=media&token=86889013-fd11-4c0d-bfda-dfc5449aeee7",
+    "nombre" : "Análisis Exploratorio de Datos",
+    "plataforma" : "Platzi"
+  }
+
+],
+  "proyectos" : [ {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/diploma-data-studio_page-0001.jpg?alt=media&token=1c924fc6-9218-4c73-b09e-4311ca766d8d",
+    "imagen2" : "gs://portafolio-bfd60.appspot.com/GRADUANDO EN EL CAMPUS_-5.jpg",
+    "imagen3" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/ipad-pro-and-iphone-mockup-scene.jpg?alt=media&token=71485a59-1872-4d4f-9b46-1435cb3e4558",
+    "tecnologia" : "Python Dash",
+    "texto" : "Dash is Python framework for building web applications. It built on top of Flask, Plotly. js, React and React Js. It enables you to build dashboards using pure Python. Dash is open source, and its apps run on the web browser",
+    "tipo" : "web",
+    "titulo" : "Dashboard Vikua"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/diploma-data-studio_page-0001.jpg?alt=media&token=1c924fc6-9218-4c73-b09e-4311ca766d8d",
+    "imagen2" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/ipad-pro-and-iphone-mockup-scene.jpg?alt=media&token=71485a59-1872-4d4f-9b46-1435cb3e4558",
+    "imagen3" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/EnwSLkaWMAARv63.jfif?alt=media&token=2a07237a-c94c-41ef-9d3a-851ecbfcacbd",
+    "tecnologia" : "Google Data Studio, Python",
+    "texto" : "Unlock the power of your data with interactive dashboards and beautiful reports that inspire smarter business decisions.",
+    "tipo" : "web",
+    "titulo" : "Dashboard Covid Venezuela"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/macbook-pro-mockup-scene.jpeg?alt=media&token=6c8398f0-8142-49e4-ace0-bf28f92f3773",
+    "imagen2" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/EnwSLkaWMAARv63.jfif?alt=media&token=2a07237a-c94c-41ef-9d3a-851ecbfcacbd",
+    "imagen3" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/ipad-pro-and-iphone-mockup-scene.jpg?alt=media&token=71485a59-1872-4d4f-9b46-1435cb3e4558",
+    "tecnologia" : "Tensorflow, Flask",
+    "texto" : "TensorFlow es una biblioteca de código abierto para aprendizaje automático a través de un rango de tareas, y desarrollado por Google para satisfacer sus ...",
+    "tipo" : "web",
+    "titulo" : "Reconocimiento Facial Web App"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/BECARIO%20GRADUANDO%20EN%20EL%20CAMPUS_-3.jpg?alt=media&token=887ee3db-1633-4665-8798-85781d30ecb4",
+    "imagen2" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/EnwSLkaWMAARv63.jfif?alt=media&token=2a07237a-c94c-41ef-9d3a-851ecbfcacbd",
+    "imagen3" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/ipad-pro-and-iphone-mockup-scene.jpg?alt=media&token=71485a59-1872-4d4f-9b46-1435cb3e4558",
+    "tecnologia" : "Vue",
+    "texto" : "Vue.js (comúnmente conocido como Vue; se pronuncia /vjuː/, como \"view\"​) es un framework de JavaScript de código abierto para la construcción de ...",
+    "tipo" : "card",
+    "titulo" : "Portafolio"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/EnwSLkaWMAARv63.jfif?alt=media&token=2a07237a-c94c-41ef-9d3a-851ecbfcacbd",
+    "imagen2" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/EoCBvnsW4AAhPPU.jfif?alt=media&token=f0d4a12d-cc46-4815-a38a-4c3b5d933a7f",
+    "imagen3" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/ipad-pro-and-iphone-mockup-scene.jpg?alt=media&token=71485a59-1872-4d4f-9b46-1435cb3e4558",
+    "tecnologia" : "Flutter",
+    "texto" : "Aunque Vue.js se lanzó por primera vez en 2014, es ahora cuando está empezando a sonar dentro de los frameworks javascript más populares, pero, ¿es ...",
+    "tipo" : "app",
+    "titulo" : "App movil gastos"
+  }, {
+    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/EoCBvnsW4AAhPPU.jfif?alt=media&token=f0d4a12d-cc46-4815-a38a-4c3b5d933a7f",
+    "imagen2" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/ipad-pro-and-iphone-mockup-scene.jpg?alt=media&token=71485a59-1872-4d4f-9b46-1435cb3e4558",
+    "imagen3" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/EoCBvnsW4AAhPPU.jfif?alt=media&token=f0d4a12d-cc46-4815-a38a-4c3b5d933a7f",
+    "tecnologia" : "Vue",
+    "texto" : "Aunque Vue.js se lanzó por primera vez en 2014, es ahora cuando está empezando a sonar dentro de los frameworks javascript más populares, pero, ¿es ...",
+    "tipo" : "card",
+    "titulo" : "Nacho Redondo"
+  } ]
+}

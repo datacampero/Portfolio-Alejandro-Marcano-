@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-         
+    <px-header/>
    <router-view/>
     <vue-particles
     color="#7B1FA2"
@@ -24,11 +24,11 @@
 </template>
 
 <script>
-//import PxAbout from './components/PxAbout'
+import PxHeader from './components/PxHeader'
 
 export default {
   name: 'App',
-  //components : {PxAbout},
+  components : {PxHeader},
 
 }
 </script>
