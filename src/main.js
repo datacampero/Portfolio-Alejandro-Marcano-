@@ -10,8 +10,9 @@ import Carousel3d from 'vue-carousel-3d'
 import ToggleSwitch from 'vuejs-toggle-switch'
 import VueSweetalert2 from 'vue-sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
+import VueParticlesBg from "particles-bg-vue";
 
-
+Vue.use(VueParticlesBg);
 Vue.use(VueSweetalert2);
 Vue.use(ToggleSwitch)
 Vue.use(Carousel3d);

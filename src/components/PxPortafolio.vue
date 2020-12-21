@@ -4,8 +4,8 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>My Works</p>
+        <h2>{{ $t('porfolio') }}</h2>
+        <p>{{ $t('my_works') }}</p>
       </div>
 
 
@@ -23,7 +23,23 @@
         </div>
       </div>
 
+  <!-- <div class="gallery">
+    <div class="gallery-panel" v-for="(b, i) in assets" :key="`pibt-${i}`">
+          <div class="portfolio-wrap">
+            <img :src="b.imagen" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>{{b.titulo}}</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                <router-link :to="`/proyectos/${b.i}`">
+                <a  data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </router-link>
 
+              </div>
+            </div>
+          </div>    </div>
+  </div> -->
 
 
 <div class="row portfolio-container">
@@ -38,55 +54,15 @@
               <h4>{{b.titulo}}</h4>
               <p>App</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a  @click="irProyecto(b.id)" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="b.imagen" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                <!-- <a  href="#portfolio-details" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               
               </div>
             </div>
           </div>
         </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-        <div v-for="(b, i) in assets" :key="`tipo1-${i}`" :class="`col-lg-4 col-md-6 portfolio-item filter-${b.tipo}`">
-          <div class="portfolio-wrap">
-            <img :src="b.imagen" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>{{b.titulo}}</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div v-for="(b, i) in assets" :key="`tipo3-${i}`" :class="`col-lg-4 col-md-6 portfolio-item filter-${b.tipo}`">
-          <div class="portfolio-wrap">
-            <img :src="b.imagen" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>{{b.titulo}}</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
+ 
 
 
       </div>
@@ -153,3 +129,20 @@ export default {
 
 
 </script>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(rem, 1fr));
+    grid-gap: 1rem;
+    max-width: 90rem;
+    margin: 5rem auto;
+    padding: 0 5rem;
+  }
+  .gallery-panel img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 0.75rem;
+  }
+</style>

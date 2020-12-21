@@ -4,64 +4,128 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check My Resume</p>
+        <h2>{{ $t('cv') }}</h2>
+        <p>{{ $t('check') }}</p>
       </div>
 
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="resume-title">Sumary</h3>
+          <h3 class="resume-title">{{ $t('sumary') }}</h3>
           <div class="resume-item pb-0">
-            <h4>Alice Barkley</h4>
-            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+            <h4>{{ $t('name') }}</h4>
+            <p><em>{{ $t('description') }}</em></p>
             <p>
             <ul>
-              <li>Portland par 127,Orlando, FL</li>
-              <li>(123) 456-7891</li>
-              <li>alice.barkley@example.com</li>
+              <li>{{ $t('location') }}</li>
+              <li>{{ $t('email') }}</li>
             </ul>
             </p>
           </div>
 
-          <h3 class="resume-title">Education</h3>
+          <h3 class="resume-title">{{ $t('education') }}</h3>
           <div class="resume-item">
-            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-            <h5>2015 - 2016</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            <h4>{{ $t('career') }}</h4>
+            <h5>{{ $t('year_career') }}</h5>
+            <p><em>{{ $t('Institute') }}</em></p>
+            <p>
+              <ul>
+                  <li>{{ $t('education_point1') }}</li>
+                  <li>{{ $t('education_point2') }}</li>
+                  <li>{{ $t('education_point3') }}</li>
+                  <li>{{ $t('education_point4') }}</li>
+            </ul>
+            </p>
           </div>
+          <h3 class="resume-title">{{ $t('professor') }}</h3>
           <div class="resume-item">
-            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-            <h5>2010 - 2014</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            <h4>{{ $t('subject1') }}</h4>
+            <h5>{{ $t('year_subject1') }}</h5>
+            <p><em>{{ $t('Institute1') }}</em></p>
+            <p>
+              <ul>
+                  <li>{{ $t('subject1_point1') }}</li>
+                  <li>{{ $t('subject1_point2') }}</li>
+                  <li>{{ $t('subject1_point3') }}</li>
+            </ul>
+            </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>{{ $t('subject2') }}</h4>
+            <h5>{{ $t('year_subject2') }}</h5>
+            <p><em>{{ $t('Institute2') }}</em></p>
+            <p>
+              <ul>
+                  <li>{{ $t('subject2_point1') }}</li>
+            </ul>
+            </p>
           </div>
         </div>
+        
         <div class="col-lg-6">
-          <h3 class="resume-title">Professional Experience</h3>
+          <h3 class="resume-title">{{ $t('professional') }}</h3>
           <div class="resume-item">
-            <h4>Senior graphic design specialist</h4>
-            <h5>2019 - Present</h5>
-            <p><em>Experion, New York, NY </em></p>
+            <h4>{{ $t('role1') }}</h4>
+            <h5>{{ $t('year_role1') }}</h5>
+            <p><em>{{ $t('Company1') }}</em></p>
             <p>
             <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-              <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-              <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              <li>{{ $t('role1_point1') }}</li>
+              <li>{{ $t('role1_point2') }}</li>
+              <li>{{ $t('role1_point3') }}</li>
+             
             </ul>
             </p>
           </div>
           <div class="resume-item">
-            <h4>Graphic design specialist</h4>
-            <h5>2017 - 2018</h5>
-            <p><em>Stepping Stone Advertising, New York, NY</em></p>
+            <h4>{{ $t('role2') }}</h4>
+            <h5>{{ $t('year_role2') }}</h5>
+            <p><em>{{ $t('Company2') }}</em></p>
             <p>
             <ul>
-              <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-              <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-              <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-              <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              <li>{{ $t('role2_point1') }}</li>
+              <li>{{ $t('role2_point2') }}</li>
+              <li>{{ $t('role2_point3') }}</li>
+             
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>{{ $t('role3') }}</h4>
+            <h5>{{ $t('year_role3') }}</h5>
+            <p><em>{{ $t('Company3') }}</em></p>
+            <p>
+            <ul>
+              <li>{{ $t('role3_point1') }}</li>
+              <li>{{ $t('role3_point2') }}</li>
+              <li>{{ $t('role3_point3') }}</li>
+             
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>{{ $t('role4') }}</h4>
+            <h5>{{ $t('year_role4') }}</h5>
+            <p><em>{{ $t('Company4') }}</em></p>
+            <p>
+            <ul>
+              <li>{{ $t('role4_point1') }}</li>
+              <li>{{ $t('role4_point2') }}</li>
+              <li>{{ $t('role4_point3') }}</li>
+             
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>{{ $t('role5') }}</h4>
+            <h5>{{ $t('year_role5') }}</h5>
+            <p><em>{{ $t('Company5') }}</em></p>
+            <p>
+            <ul>
+              <li>{{ $t('role5_point1') }}</li>
+              <li>{{ $t('role5_point2') }}</li>
+              <li>{{ $t('role5_point3') }}</li>
+             
             </ul>
             </p>
           </div>

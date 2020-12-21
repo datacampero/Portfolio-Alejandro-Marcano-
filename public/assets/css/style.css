@@ -16,7 +16,7 @@ body {
   background: transparent;
 }
 
-button {    padding: 10px;    border: 2px solid #18d26e; border-radius:28px;
+button {    padding: 10px;    border: 2px solid #B6C71F; border-radius:28px;
   font-size: 16px;    margin: 10px;}
 
 
@@ -40,11 +40,11 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #B6C71F;
 }
 
 a:hover {
-  color: #35e888;
+  color: #B6C71F;
   text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #18d26e;
+  color: #B6C71F;
   line-height: 1;
   display: inline-block;
   animation: type 3s steps(17);
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: rgb(0, 0, 0);
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #B6C71F;
   padding-bottom: 6px;
 }
 
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #B6C71F;
 }
 
 @media (max-width: 992px) {
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #B6C71F;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #18d26e;
+  color: #B6C71F;
   text-decoration: none;
 }
 
@@ -406,7 +406,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #B6C71F;
 }
 
 .about-me .content ul {
@@ -421,7 +421,7 @@ section .container {
 .about-me .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #18d26e;
+  color: #B6C71F;
 }
 
 .about-me .content p:last-child {
@@ -451,7 +451,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #B6C71F;
   border-radius: 50px;
 }
 
@@ -501,7 +501,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #18d26e;
+  background-color: #B6C71F;
 }
 
 /*--------------------------------------------------------------
@@ -608,7 +608,7 @@ section .container {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #18d26e !important;
+  background-color: #B6C71F !important;
 }
 
 @media (max-width: 767px) {
@@ -641,7 +641,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #B6C71F;
   margin-bottom: 10px;
 }
 
@@ -674,8 +674,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #B6C71F;
+  border: 2px solid #B6C71F;
 }
 
 /*--------------------------------------------------------------
@@ -692,7 +692,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #18d26e;
+  background: #B6C71F;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -737,8 +737,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
+  background: #B6C71F;
+  border-color: #B6C71F;
 }
 
 .services .icon-box:hover .icon {
@@ -746,7 +746,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #18d26e;
+  color: #B6C71F;
 }
 
 .services .icon-box:hover .icon::before {
@@ -789,7 +789,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #B6C71F;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -926,7 +926,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #B6C71F;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -963,7 +963,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #B6C71F;
 }
 
 .contact .php-email-form {
@@ -995,7 +995,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #18d26e;
+  background: #B6C71F;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1015,7 +1015,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #B6C71F;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1069,7 +1069,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #18d26e;
+  background: #B6C71F;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1139,7 +1139,7 @@ section .container {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #18d26e !important;
+  background-color: #B6C71F !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1197,7 +1197,7 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color: #B6C71F;
   transition: 0.3s;
 }
 

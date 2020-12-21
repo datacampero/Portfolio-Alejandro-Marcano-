@@ -3,7 +3,7 @@
 
 
     <!-- ======= Portfolio Details ======= -->
-    <div id="portfolio-details" class="portfolio-details">
+    <div class="portfolio-details">
       <div class="container">
 
         <div class="row">
@@ -34,7 +34,8 @@
         </div>
 
       </div>
-    </div><!-- End Portfolio Details -->
+    </div>
+    <!-- End Portfolio Details -->
 </div>
 </template>
 

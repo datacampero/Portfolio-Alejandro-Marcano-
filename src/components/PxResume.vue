@@ -13,8 +13,8 @@
     <div class="about-me container">
 
       <div class="section-title">
-        <h2>Courses</h2>
-        <p>See my courses</p>
+        <h2>{{ $t('courses') }}</h2>
+        <p>{{ $t('my_courses') }}</p>
       </div>
 
 
