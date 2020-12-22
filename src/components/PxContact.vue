@@ -43,7 +43,7 @@
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
             <h3>{{ $t('text_me') }}</h3>
-            <p>+584242481954</p>
+            <p>{{ $t('phone_ans') }}</p>  
           </div>
         </div>
       </div>

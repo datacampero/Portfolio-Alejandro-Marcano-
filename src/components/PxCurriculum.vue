@@ -98,7 +98,6 @@
             <ul>
               <li>{{ $t('role3_point1') }}</li>
               <li>{{ $t('role3_point2') }}</li>
-              <li>{{ $t('role3_point3') }}</li>
              
             </ul>
             </p>

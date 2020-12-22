@@ -4,12 +4,9 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>{{ $t('porfolio') }}</h2>
+        <h2>{{ $t('portfolio') }}</h2>
         <p>{{ $t('my_works') }}</p>
       </div>
-
-
-
 
 
       <div class="row">
@@ -17,35 +14,13 @@
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
             <li data-filter=".filter-web">Web</li>
           </ul>
         </div>
       </div>
 
-  <!-- <div class="gallery">
-    <div class="gallery-panel" v-for="(b, i) in assets" :key="`pibt-${i}`">
-          <div class="portfolio-wrap">
-            <img :src="b.imagen" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>{{b.titulo}}</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <router-link :to="`/proyectos/${b.i}`">
-                <a  data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </router-link>
-
-              </div>
-            </div>
-          </div>    </div>
-  </div> -->
-
 
 <div class="row portfolio-container">
-
-
-    
 
         <div v-for="(b, i) in assets" :key="`tipo2-${i}`" :class="`col-lg-4 col-md-6 portfolio-item filter-${b.tipo}`">
           <div class="portfolio-wrap">
@@ -54,7 +29,7 @@
               <h4>{{b.titulo}}</h4>
               <p>App</p>
               <div class="portfolio-links">
-                <a href="b.imagen" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="b.imagen" data-gall="portfolioGallery" class="venobox" title="App 1"></a>
                 <!-- <a  href="#portfolio-details" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               
               </div>
@@ -66,6 +41,8 @@
 
 
       </div>
+
+
 
     </div>
   </section><!-- End Portfolio Section --> 
@@ -79,7 +56,6 @@ import api from '@/api'
 export default {
   name: 'PxPortafolio',
   components: {
-
   },
 
   data() {
@@ -89,6 +65,9 @@ export default {
      activo:true,
      activo2:false,
       assets: [],
+      web: [],
+      app: [],
+      datascience: [],
 
     }
   },

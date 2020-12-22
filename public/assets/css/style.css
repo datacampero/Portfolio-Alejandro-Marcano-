@@ -19,12 +19,37 @@ body {
 button {    padding: 10px;    border: 2px solid #B6C71F; border-radius:28px;
   font-size: 16px;    margin: 10px;}
 
-
+.list-complete {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.list-complete-item {
+  transition: transform 1s;
+  height: 200px;
+  padding: 10px;
+/*   display: inline-block;
+  margin-right: 10px; */
+}
+.list-complete-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.list-complete-enter, .list-complete-leave-to
+/* .list-complete-leave-active for <2.1.8 */ {
+  opacity: 0;
+  transform: translateY(30px);
+}
+.list-complete-leave-active {
+  position: absolute;
+}
 
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #ffffff url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;

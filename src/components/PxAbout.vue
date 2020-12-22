@@ -40,7 +40,7 @@
             </div>
           </div>
           <p>
-            {{ $t('hobbies') }}
+            <!-- {{ $t('hobbies') }} -->
           </p>
         </div>
       </div>

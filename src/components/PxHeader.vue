@@ -38,7 +38,7 @@
             <flag :iso="entry.flag" v-bind:squared=false /> 
 
         </a> -->
-            <button v-on:click="presionar" :class="activo ? 'btn btn-outline-success active': 'btn btn-outline-success'" v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">
+            <button class="btn btn-outline-success" v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">
                 <flag :iso="entry.flag" v-bind:squared=false /> {{entry.title}}
             </button>
 

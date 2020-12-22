@@ -27,8 +27,8 @@ const messages = {
         birthday_ans: '30 August 1997',
         website: 'Website:',
         website_ans: 'alejandromarcano.com',
-        phone: 'Phone:',
-        phone_ans: '+584242481954',
+        phone: 'Telegram:',
+        phone_ans: '@datacampero',
         city: 'City:',
         city_ans: 'Caracas, Venezuela',
         age: 'Age:',
@@ -72,6 +72,7 @@ const messages = {
             location: 'La Urbina, Caracas, Venezuela',
             email: 'alemvangrieken@gmail.com',
             social: '@datacampero',
+            others: 'Other platforms',
             
             
             //Education
@@ -179,7 +180,7 @@ const messages = {
         my_adress: 'My Address',
         email_me: 'Email me',
         social_networks: 'Social Networks',
-        text_me: 'Text me',
+        text_me: 'Telegram',
         your_name: 'Your Name',
         your_email: 'Your Email',
         subject: 'Subject',
@@ -212,8 +213,8 @@ const messages = {
         birthday_ans: '30 Agosto de 1997',
         website: 'Página web:',
         website_ans: 'alejandromarcano.com',
-        phone: 'Tlf:',
-        phone_ans: '+584242481954',
+        phone: 'Telegram:',
+        phone_ans: '@datacampero',
         city: 'Ciudad:',
         city_ans: 'Caracas, Venezuela',
         age: 'Edad:',
@@ -331,7 +332,8 @@ const messages = {
             
             //Courses
             courses: 'Cetificaciones',
-            my_courses: 'Ve Mis Cursos 📜',
+        my_courses: 'Ve Mis Cursos 📜',
+            others: 'Otras Plataformas',
 
 
             //Portfolio
