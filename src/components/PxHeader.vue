@@ -23,7 +23,7 @@
     clickMode="repulse"
       >
       </vue-particles> 
-      <h1><a href="index.html">{{ $t('name') }}</a></h1>
+      <h1><a>{{ $t('name') }}</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2>{{ $t('role') }}</h2>
