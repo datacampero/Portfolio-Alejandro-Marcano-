@@ -1,33 +1,33 @@
 {
   "cursos" : [ 
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-teletrabajo-trabajo-remoto_page-0001.jpg?alt=media&token=52122122-4924-460d-b5ce-c6937c662bf4",
-    "nombre" : "Trabajo Remoto o Teletrabajo",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700711/Cursos/Platzi/diploma-prework-windows_page-0001_1_pys61x.jpg",
+    "nombre" : "Entorno de Desarrollo en Windows",
     "plataforma" : "Platzi"
   },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-analisis-exploratorio-datos%20(1)_pages-to-jpg-0001.jpg?alt=media&token=86889013-fd11-4c0d-bfda-dfc5449aeee7",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700727/Cursos/Platzi/diploma-vuejs_page-0001_rtjtlp.jpg",
     "nombre" : "Vue Básico",
     "plataforma" : "Platzi"
   },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-teletrabajo-trabajo-remoto_page-0001.jpg?alt=media&token=52122122-4924-460d-b5ce-c6937c662bf4",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700719/Cursos/Platzi/diploma-teletrabajo-trabajo-remoto_page-0001_1_cpb7bi.jpg",
     "nombre" : "Trabajo Remoto o Teletrabajo",
     "plataforma" : "Platzi"
   }, 
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-marca-personal_page-0001.jpg?alt=media&token=fa2d2567-df00-4d90-b324-3ee99ac71a00",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700711/Cursos/Platzi/diploma-marca-personal_page-0001_1_mvszwo.jpg",
     "nombre" : "Marca Personal",
     "plataforma" : "Platzi"
   },
 
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-data-studio_page-0001.jpg?alt=media&token=257aa8f5-187a-474b-a58a-a8f5f8f08e63",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700704/Cursos/Platzi/diploma-data-studio_page-0001_1_jot1ff.jpg",
     "nombre" : "Google Data Studio",
     "plataforma" : "Platzi"
   },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fdiploma-analisis-exploratorio-datos%20(1)_pages-to-jpg-0001.jpg?alt=media&token=86889013-fd11-4c0d-bfda-dfc5449aeee7",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700697/Cursos/Platzi/diploma-analisis-exploratorio-datos_1__pages-to-jpg-0001_1_hn9lgc.jpg",
     "nombre" : "Análisis Exploratorio de Datos",
     "plataforma" : "Platzi"
   }
@@ -39,22 +39,22 @@
   "coursera" : [ 
 
     {
-      "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FBigData.png?alt=media&token=8a9e7052-175d-4133-a89f-32c41b048fd2",
+      "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700694/Cursos/Coursera/BigData_gyv5q1.jpg",
       "nombre" : "Big Data",
       "plataforma" : "Coursera"
     },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FANN.png?alt=media&token=6eaea835-f96b-4e45-adc3-185e06bf189a",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700691/Cursos/Coursera/ANN_yaairc.jpg",
     "nombre" : "Neural Networks and Deep Learning",
     "plataforma" : "Coursera"
   },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FConv.png?alt=media&token=57d20f41-f085-4f2d-8b20-4c8e841cd488",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700690/Cursos/Coursera/Conv_ykxzja.jpg",
     "nombre" : "Convolutional Neural Networks",
     "plataforma" : "Coursera"
   },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FNLP1.png?alt=media&token=7e0b0d38-debb-47cc-aceb-0c355f02d714",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700701/Cursos/Coursera/NLP1_fhkgzy.jpg",
     "nombre" : "Natural Language Procesing",
     "plataforma" : "Coursera"
   }
@@ -64,23 +64,23 @@
   "udemy" : [ 
 
     {
-      "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FBD.png?alt=media&token=6a6993ef-6996-4727-998e-d64bb0ada356",
+      "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700731/Cursos/Udemy/BD_nk3pm1.jpg",
       "nombre" : "Bases de Datos de 0 a Avanzado",
       "plataforma" : "Udemy"
     },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FML.png?alt=media&token=75e7bc66-4355-4dcf-bce7-40199c86808b",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700722/Cursos/Udemy/ML_mdspuo.jpg",
     "nombre" : "Machine Learning Scikit-Learn and StatsModels",
     "plataforma" : "Udemy"
   },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FQLearning.jpg?alt=media&token=4b44e4e9-d292-4ee7-a9f8-baa867f05630",
-    "nombre" : "Q-Learning",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700730/Cursos/Udemy/QLearning_bacvds.jpg",
+    "nombre" : "Reinforcement Learning",
     "plataforma" : "Udemy"
   },
 
     {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FPROB.png?alt=media&token=d4fa6522-54e7-40ab-977c-a7be2dd4cd39",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700727/Cursos/Udemy/PROB_fjif6r.jpg",
     "nombre" : "Probability for Data Science",
     "plataforma" : "Udemy"
   }
@@ -90,33 +90,38 @@
   "365" : [ 
 
     {
-      "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fsqltableau.png?alt=media&token=72fdeff0-c3ac-474f-b510-ac5ff8ecc045",
+      "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700691/Cursos/365%20Careers/sqltableau_kwj5ly.jpg",
       "nombre" : "SQL and Tableau",
       "plataforma" : "365 Data Science"
     },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fmath.png?alt=media&token=5f4af52e-c472-49dc-a566-b20380eb5970",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700681/Cursos/365%20Careers/math_pspzok.jpg",
     "nombre" : "Mathematics",
     "plataforma" : "365 Data Science"
   },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fgithub.png?alt=media&token=19151208-5e27-4faf-ba57-2d4a7e7ae841",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700691/Cursos/365%20Careers/github_cmsxcx.jpg",
     "nombre" : "Git and Github",
     "plataforma" : "365 Data Science"
   }, 
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fintrodatascience.png?alt=media&token=3b1c19c7-a3a5-4e4f-b976-ddf3dce1573b",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700680/Cursos/365%20Careers/introdatascience_dueawz.jpg",
     "nombre" : "Intro to Data Science",
     "plataforma" : "365 Data Science"
   }, 
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fintrodatascience.png?alt=media&token=3b1c19c7-a3a5-4e4f-b976-ddf3dce1573b",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700680/Cursos/365%20Careers/introdatascience_dueawz.jpg",
     "nombre" : "Introduction to Data Science",
     "plataforma" : "365 Data Science"
   },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fintropython.png?alt=media&token=dde55aa6-ecdf-479a-940c-ff17858aa428",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700675/Cursos/365%20Careers/intropython_q9zvei.jpg",
     "nombre" : "Introduction to Python",
+    "plataforma" : "365 Data Science"
+  },
+  {
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700685/Cursos/365%20Careers/scrap_fz5rwy.jpg",
+    "nombre" : "Web Scraping and API fundamentals in Python",
     "plataforma" : "365 Data Science"
   }
 
@@ -124,17 +129,17 @@
   "otros" : [ 
 
     {
-      "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FDatacampPandas.png?alt=media&token=e8dca2eb-0bff-44f7-883a-5c85f50fe64e",
+      "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700702/Cursos/Otros/DatacampPandas_a4jyav.jpg",
       "nombre" : "Pandas Foundations",
       "plataforma" : "Datacamp"
     },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2Fcertificado-curso-profesional-python-1.png?alt=media&token=ce464cbe-b4d8-46df-a7e9-3bded87ff8b2",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700715/Cursos/Otros/certificado-curso-profesional-python-1_osrett.jpg",
     "nombre" : "Curso Profesional de Python",
     "plataforma" : "Código Facilito"
   },
   {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/cursos%2FKaggleDV.png?alt=media&token=0bf5c7b4-2df6-464b-8f7f-eaba6a1bd824",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700702/Cursos/Otros/KaggleDV_fnbfmg.jpg",
     "nombre" : "Data Visualization",
     "plataforma" : "Kaggle"
   }
@@ -143,31 +148,31 @@
 
 
   "proyectos" : [ {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/proyectos%2Fdash_vikua.jpg?alt=media&token=b9507698-c8df-4ef4-b525-d7a962983700",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700671/Proyectos/dash_vikua_mqnjnz.jpg",
     "tecnologia" : "python dash",
     "texto" : "Dash is Python framework for building web applications. It built on top of Flask, Plotly. js, React and React Js. It enables you to build dashboards using pure Python. Dash is open source, and its apps run on the web browser",
     "tipo" : "web",
     "titulo" : "Dashboard Vikua"
   }, {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/proyectos%2Ftraccar_off.jpg?alt=media&token=b967d1c3-a149-43b5-b56a-15355d0f77cc",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608701469/Proyectos/ipad-pro-and-iphone-mockup-scene_1_sqos8o.jpg",
     "tecnologia" : "python, dash",
     "texto" : "Unlock the power of your data with interactive dashboards and beautiful reports that inspire smarter business decisions.",
     "tipo" : "web",
     "titulo" : "Traccar"
   }, {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/proyectos%2Faerium.jpg?alt=media&token=bc5c4983-6667-4102-9a7e-b4e4a640e85c",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700670/Proyectos/aerium_keha8m.jpg",
     "tecnologia" : "python",
     "texto" : "TensorFlow es una biblioteca de código abierto para aprendizaje automático a través de un rango de tareas, y desarrollado por Google para satisfacer sus ...",
     "tipo" : "web",
     "titulo" : "Simulation bus"
   }, {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/proyectos%2FURBOT.jpg?alt=media&token=b6c2a449-de93-4580-90d4-9e9a980bfb43",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700669/Proyectos/URBOT_yxdoxa.jpg",
     "tecnologia" : "dialogflow, python",
     "texto" : "Vue.js (comúnmente conocido como Vue; se pronuncia /vjuː/, como \"view\"​) es un framework de JavaScript de código abierto para la construcción de ...",
     "tipo" : "app",
     "titulo" : "URBOT"
   }, {
-    "imagen" : "https://firebasestorage.googleapis.com/v0/b/portafolio-bfd60.appspot.com/o/macbook-pro-mockup-scene.jpeg?alt=media&token=6c8398f0-8142-49e4-ace0-bf28f92f3773",
+    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700678/Proyectos/login_catalog_qmjyvy.jpg",
     "tecnologia" : "Flutter",
     "texto" : "Aunque Vue.js se lanzó por primera vez en 2014, es ahora cuando está empezando a sonar dentro de los frameworks javascript más populares, pero, ¿es ...",
     "tipo" : "app",
