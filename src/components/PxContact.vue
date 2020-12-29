@@ -51,20 +51,20 @@
       <form  @submit.prevent="sendEmail"  class="php-email-form mt-4">
         <div class="form-row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" v-model="name" class="form-control" id="name" :placeholder=" $t('your_name')" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <input required type="text" name="name" v-model="name" class="form-control" id="name" :placeholder=" $t('your_name')" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
             <div class="validate"></div>
           </div>
           <div class="col-md-6 form-group">
-            <input type="email" class="form-control" v-model="email" name="email" id="email" :placeholder="$t('your_email')" data-rule="email" data-msg="Please enter a valid email" />
+            <input required type="email" class="form-control" v-model="email" name="email" id="email" :placeholder="$t('your_email')" data-rule="email" data-msg="Please enter a valid email" />
             <div class="validate"></div>
           </div>
         </div>
         <div class="form-group">
-          <input type="text" class="form-control" v-model="subject"  name="subject" id="subject" :placeholder="$t('subject')" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+          <input required type="text" class="form-control" v-model="subject"  name="subject" id="subject" :placeholder="$t('subject')" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
           <div class="validate"></div>
         </div>
         <div class="form-group">
-          <textarea class="form-control" v-model="message" name="message" rows="5" data-rule="required" data-msg="Please write something for us" :placeholder="$t('your_message')"></textarea>
+          <textarea required class="form-control" v-model="message" name="message" rows="5" data-rule="required" data-msg="Please write something for us" :placeholder="$t('your_message')"></textarea>
           <div class="validate"></div>
         </div>
         <div class="mb-3">
@@ -72,7 +72,7 @@
           <div class="error-message"></div>
           <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
-        <div class="text-center"><button @click="toastTopEnd" type="submit" value="Send">{{ $t('send_message') }}</button></div>
+        <div class="text-center"><button v-if="isHidden" @click="toastTopEnd" type="submit" value="Send">{{ $t('send_message') }}</button></div>
       </form>
 
     </div>
@@ -92,11 +92,14 @@ export default {
         message: '',
         email: '',
         subject: '',
+        isHidden: true,
+
         }
     },
     methods: {
 
     toastTopEnd() {
+      this.isHidden = !this.isHidden,
       this.$swal({
         toast: true,
         position: 'top-end',
@@ -106,6 +109,8 @@ export default {
         title: 'Mail',
         text: 'sent successfully',
       });
+      
+
     },
     sendEmail(e) {
       try {

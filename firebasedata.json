@@ -1,33 +1,33 @@
 {
   "cursos" : [ 
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700711/Cursos/Platzi/diploma-prework-windows_page-0001_1_pys61x.jpg",
+    "imagen" : "src/assets/Cursos/Platzi/diploma-prework-windows_page-0001 (1).jpg",
     "nombre" : "Entorno de Desarrollo en Windows",
     "plataforma" : "Platzi"
   },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700727/Cursos/Platzi/diploma-vuejs_page-0001_rtjtlp.jpg",
+    "imagen" : "src/assets/Cursos/Platzi/diploma-vuejs_page-0001 (1).jpg",
     "nombre" : "Vue Básico",
     "plataforma" : "Platzi"
   },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700719/Cursos/Platzi/diploma-teletrabajo-trabajo-remoto_page-0001_1_cpb7bi.jpg",
+    "imagen" : "src/assets/Cursos/Platzi/diploma-teletrabajo-trabajo-remoto_page-0001 (1).jpg",
     "nombre" : "Trabajo Remoto o Teletrabajo",
     "plataforma" : "Platzi"
   }, 
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700711/Cursos/Platzi/diploma-marca-personal_page-0001_1_mvszwo.jpg",
+    "imagen" : "src/assets/Cursos/Platzi/diploma-marca-personal_page-0001 (1).jpg",
     "nombre" : "Marca Personal",
     "plataforma" : "Platzi"
   },
 
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700704/Cursos/Platzi/diploma-data-studio_page-0001_1_jot1ff.jpg",
+    "imagen" : "src/assets/Cursos/Platzi/diploma-data-studio_page-0001 (1).jpg",
     "nombre" : "Google Data Studio",
     "plataforma" : "Platzi"
   },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700697/Cursos/Platzi/diploma-analisis-exploratorio-datos_1__pages-to-jpg-0001_1_hn9lgc.jpg",
+    "imagen" : "src/assets/Cursos/Platzi/diploma-vuejs_page-0001.jpg",
     "nombre" : "Análisis Exploratorio de Datos",
     "plataforma" : "Platzi"
   }
@@ -39,22 +39,22 @@
   "coursera" : [ 
 
     {
-      "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700694/Cursos/Coursera/BigData_gyv5q1.jpg",
+      "imagen" : "src/assets/Cursos/Coursera/BigData.jpg",
       "nombre" : "Big Data",
       "plataforma" : "Coursera"
     },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700691/Cursos/Coursera/ANN_yaairc.jpg",
+    "imagen" : "src/assets/Cursos/Coursera/ANN.jpg",
     "nombre" : "Neural Networks and Deep Learning",
     "plataforma" : "Coursera"
   },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700690/Cursos/Coursera/Conv_ykxzja.jpg",
+    "imagen" : "src/assets/Cursos/Coursera/Cov.jpg",
     "nombre" : "Convolutional Neural Networks",
     "plataforma" : "Coursera"
   },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700701/Cursos/Coursera/NLP1_fhkgzy.jpg",
+    "imagen" : "src/assets/Cursos/Coursera/NLP1.jpg",
     "nombre" : "Natural Language Procesing",
     "plataforma" : "Coursera"
   }
@@ -62,25 +62,31 @@
 ],
 
   "udemy" : [ 
+    {
+      "imagen" : "src/assets/Cursos/Udemy/CerDS.jpg",
+      "nombre" : "Data Science",
+      "plataforma" : "Udemy"
+    },
+
 
     {
-      "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700731/Cursos/Udemy/BD_nk3pm1.jpg",
+      "imagen" : "src/assets/Cursos/Udemy/BD.jpg",
       "nombre" : "Bases de Datos de 0 a Avanzado",
       "plataforma" : "Udemy"
     },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700722/Cursos/Udemy/ML_mdspuo.jpg",
+    "imagen" : "src/assets/Cursos/Udemy/ML.jpg",
     "nombre" : "Machine Learning Scikit-Learn and StatsModels",
     "plataforma" : "Udemy"
   },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700730/Cursos/Udemy/QLearning_bacvds.jpg",
+    "imagen" : "src/assets/Cursos/Udemy/QLearning.jpg",
     "nombre" : "Reinforcement Learning",
     "plataforma" : "Udemy"
   },
 
     {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700727/Cursos/Udemy/PROB_fjif6r.jpg",
+    "imagen" : "src/assets/Cursos/Udemy/PROB.jpg",
     "nombre" : "Probability for Data Science",
     "plataforma" : "Udemy"
   }
@@ -90,37 +96,33 @@
   "365" : [ 
 
     {
-      "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700691/Cursos/365%20Careers/sqltableau_kwj5ly.jpg",
+      "imagen" : "src/assets/Cursos/365/sqltableau.jpg",
       "nombre" : "SQL and Tableau",
       "plataforma" : "365 Data Science"
     },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700681/Cursos/365%20Careers/math_pspzok.jpg",
+    "imagen" : "src/assets/Cursos/365/math.jpg",
     "nombre" : "Mathematics",
     "plataforma" : "365 Data Science"
   },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700691/Cursos/365%20Careers/github_cmsxcx.jpg",
+    "imagen" : "src/assets/Cursos/365/github.jpg",
     "nombre" : "Git and Github",
     "plataforma" : "365 Data Science"
   }, 
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700680/Cursos/365%20Careers/introdatascience_dueawz.jpg",
+    "imagen" : "src/assets/Cursos/365/introdatascience.jpg",
     "nombre" : "Intro to Data Science",
     "plataforma" : "365 Data Science"
   }, 
+
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700680/Cursos/365%20Careers/introdatascience_dueawz.jpg",
-    "nombre" : "Introduction to Data Science",
-    "plataforma" : "365 Data Science"
-  },
-  {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700675/Cursos/365%20Careers/intropython_q9zvei.jpg",
+    "imagen" : "src/assets/Cursos/365/intropython.jpg",
     "nombre" : "Introduction to Python",
     "plataforma" : "365 Data Science"
   },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700685/Cursos/365%20Careers/scrap_fz5rwy.jpg",
+    "imagen" : "src/assets/Cursos/365/scrap.jpg",
     "nombre" : "Web Scraping and API fundamentals in Python",
     "plataforma" : "365 Data Science"
   }
@@ -129,17 +131,17 @@
   "otros" : [ 
 
     {
-      "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700702/Cursos/Otros/DatacampPandas_a4jyav.jpg",
+      "imagen" : "src/assets/Cursos/Otros/DatacampPandas.jpg",
       "nombre" : "Pandas Foundations",
       "plataforma" : "Datacamp"
     },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700715/Cursos/Otros/certificado-curso-profesional-python-1_osrett.jpg",
+    "imagen" : "src/assets/Cursos/Otros/certificado-curso-profesional-python-1.jpg",
     "nombre" : "Curso Profesional de Python",
     "plataforma" : "Código Facilito"
   },
   {
-    "imagen" : "https://res.cloudinary.com/dvtfqhgnm/image/upload/v1608700702/Cursos/Otros/KaggleDV_fnbfmg.jpg",
+    "imagen" : "src/assets/Cursos/Otros/KaggleDV.jpg",
     "nombre" : "Data Visualization",
     "plataforma" : "Kaggle"
   }
