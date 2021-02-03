@@ -17,12 +17,9 @@ const messages = {
 
         //About
         sub_about: 'Learn More About Me 👇',
-        description: `  I am 23 years old, I currently live in Caracas, Venezuela I am a software
-        developer specialized in the area of data analysis and artificial intelligence. I
-        graduated as a systems engineer and currently work in a smart city company
-        as a data geneticist (Similar role as data scientist). Also I work as a math
-        professor at Universidad Metropolitana and in some projects as freelance.       
-        `,
+        description: 'I am 23 years old, I currently live in Caracas, Venezuela. I am a software developer specialized in the area of ​​data analysis and artificial intelligence. In 2015, I obtained an Academic Excellence scholarship to study my undergraduate studies at the Universidad Metropolitana in Systems Engineering career. During my student days I was a preparer of subjects such as mathematics 1, physics 3 and database administration, which aroused my interest in teaching related to science and technology. In 2019, I obtained honorable mention for my degree work on Facial Recognition using Convolutional Neural Networks. In 2020, I graduated as Engineer where I got first position in the graduation promotion. I currently work in a smart city company as a data geneticist (role similar to data scientist). I am also a lead development engineer at Avilatek and at CultureLab I am an online instructor. In 2020, I began to work as a University professor at the Metropolitan University in the subjects Mathematics 1 and Algorithms and Programming. At this University I am also an academic tutor of degree projects with subjects related to Artificial Intelligence.',
+
+
         birthday: 'Birthday:',
         birthday_ans: '30 August 1997',
         website: 'Website:',
@@ -203,11 +200,20 @@ const messages = {
         //Sobre mi
         sub_about: 'Lee más sobre mí 👇',
 
-        description: `  Tengo 23 años, actualmente vivo en Caracas, Venezuela soy un software
-        desarrollador especializado en el área de análisis de datos e inteligencia artificial.
-        Me gradué como ingeniero de sistemas y actualmente trabajo en una empresa de ciudad inteligente
-        como genetista de datos (rol similar al científico de datos). También trabajo como 
-        profesor universitario de la Universidad Metropolitana y en algunos proyectos como freelance.
+        description: `  
+        Tengo 23 años, actualmente vivo en Caracas, Venezuela soy un software desarrollador especializado en el área de análisis de datos e inteligencia artificial. 
+
+        En 2015 obtuve una beca de Excelencia Académica para cursar mis estudios de pregrado en la Universidad Metropolitana en la carrera de Ingeniería de Sistemas. 
+        
+        Durante mi etapa de estudiante fui preparador de materias como matemáticas 1, física 3 y administración de base de datos, que despertaron mi interes por la enseñanza relacionada a la ciencia y tecnología.
+        
+        En 2019, obtuve mención honorífica por mi trabajo de grado sobre Reconocimiento Facial utilizando redes Neuronales Convolucionales. 
+        
+        En 2020, obtuve la primera posición en el puesto de graduación 
+        
+        Actualmente trabajo en una empresa de ciudad inteligente como genetista de datos (rol similar al científico de datos). También soy ingeniero líder de desarrollo en Avilatek y en CultureLab soy instructor en línea. 
+        
+        En 2020, comencé a laborar como profesor Universitario de la Universidad Metropolitana en las asignaturas Matemáticas 1 y Algoritmos y Programación. En esta Universidad también soy tutor académico de trabajos de grados con temáticas relacionadas a la Inteligencia Artificial.
         `,
         birthday: 'Cumpleaños:',
         birthday_ans: '30 Agosto de 1997',
