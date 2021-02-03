@@ -38,6 +38,18 @@
           </div>
           <h3 class="resume-title">{{ $t('professor') }}</h3>
           <div class="resume-item">
+            <h4>{{ $t('subject2') }}</h4>
+            <h5>{{ $t('year_subject2') }}</h5>
+            <p><em>{{ $t('Institute2') }}</em></p>
+            <p>
+              <ul>
+                  <li>{{ $t('subject2_point1') }}</li>
+            </ul>
+            </p>
+          </div>
+
+
+          <div class="resume-item">
             <h4>{{ $t('subject1') }}</h4>
             <h5>{{ $t('year_subject1') }}</h5>
             <p><em>{{ $t('Institute1') }}</em></p>
@@ -50,16 +62,7 @@
             </p>
           </div>
 
-          <div class="resume-item">
-            <h4>{{ $t('subject2') }}</h4>
-            <h5>{{ $t('year_subject2') }}</h5>
-            <p><em>{{ $t('Institute2') }}</em></p>
-            <p>
-              <ul>
-                  <li>{{ $t('subject2_point1') }}</li>
-            </ul>
-            </p>
-          </div>
+
         </div>
         
         <div class="col-lg-6">

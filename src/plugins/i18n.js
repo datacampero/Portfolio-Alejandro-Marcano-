@@ -84,7 +84,7 @@ const messages = {
             education_point4: `First position of systems engineering graduation promotion.`,
             
             //Profesor Experience
-            professor: 'Profesor Experience',
+            professor: 'Professor Experience',
             subject1: 'Mathematics 1',
             year_subject1: 'Sep 2020 -Present',
             Institute1: 'Universidad Metropolitana, Caracas, Venezuela',
@@ -95,9 +95,9 @@ const messages = {
             subject1_point3: `Create digital content (blogs, videos, notions, guides) to I teach better.`,
             
             subject2: ' Programing and Algorithmics',
-            year_subject2: 'Jan 2020 -Present',
+            year_subject2: 'Jan 2021 -Present',
             Institute2: 'Universidad Metropolitana, Caracas, Venezuela',
-            subject2_point1: `Teach in a virtual way through different platforms (Google Classroom, meet, programming videos) the introductory subject to programming at the Metropolitan University`,
+            subject2_point1: `Virtually teach the principles of programming using the python programming language, design and apply assessments`,
 
             //Professional Experience
             professional: 'Professional Experience',
@@ -290,7 +290,7 @@ const messages = {
             subject1_point3: `Crear contenido digital (blogs, videos, guías ) como material de estudio.`,
             
             subject2: 'Algoritmos y Programación',
-            year_subject2: 'Ene 2020 -Present',
+            year_subject2: 'Ene 2021 -Present',
             Institute2: 'Universidad Metropolitana, Caracas, Venezuela',
         subject2_point1: `Enseñar de manera virtual a través de diferentes plataformas (Google Classroom, meet, Videos de Youtube).
                             Esta materia es la primera en el pensum sobre programación en la Carrera de Ingeniería de Sistemas`,
